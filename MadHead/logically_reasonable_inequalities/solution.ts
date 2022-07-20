@@ -1,12 +1,15 @@
+// @ts-ignore
+// @ts-ignore
 /**
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-
+    // @ts-ignore
 const n: number = parseInt(readline());
 const sortArray =[];
 let isContradiction = false;
 for (let i = 0; i < n; i++) {
+    // @ts-ignore
     const row: string = readline();
     console.error('Debug messages...',row);
     const letter = row.split(" > ")
