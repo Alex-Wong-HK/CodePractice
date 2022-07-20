@@ -23,7 +23,6 @@ for(let i = 0; i< bytesArray.length;i++){
         sequenceList.push(catchList)
     }
 }
-console.error(sequenceList)
 for(let i = 0;i<sequenceList.length;i++){
     let count = 0
     let fristZero = true;
@@ -38,7 +37,6 @@ for(let i = 0;i<sequenceList.length;i++){
             fristZero = false
         }
     }
-
 
     if(i+1 < sequenceList.length){
         if(sequenceList[i+1][0] != "0"){
