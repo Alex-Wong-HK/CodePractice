@@ -21,6 +21,7 @@ for (let i = 0; i < 9; i++) {
     }
 }
 if(ans == true ){
+    console.error("row")
     for(let i =0;i<9;i++){
         let col = []
         for(let j=0;j<9;j++){
@@ -30,25 +31,80 @@ if(ans == true ){
             }else{
                 col.push(table[j][i])
             }
-            console.error(col)
         }
     }
 }
-function checkgrid(){
-    for(let i =0;i<9;i++){
-        if(table[i].length!=9){
-            return false
+if(ans == true ){
+    console.error("grid")
+    for(let i =0;i<9;i=i+3){
+        for(let j=0;j<9;j=j+3){
+            let grid = []
+            grid.push(table[i][j])
+            if(grid.includes(table[i][j+1])){
+                console.error("i j+1")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i][j+1])
+            }
+
+            if(grid.includes(table[i][j+2])){
+                console.error("i j+2")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i][j+2])
+            }
+
+            if(grid.includes(table[i+1][j])){
+                console.error("i+1 j")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i+1][j])
+            }
+
+            if(grid.includes(table[i+1][j+1])){
+                console.error("i+1 j+1")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i+1][j+1])
+            }
+            if(grid.includes(table[i+1][j+2])){
+                console.error("i+1 j+2")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i+1][j+2])
+            }
+
+            if(grid.includes(table[i+2][j])){
+                console.error("i+2 j")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i+2][j])
+            }
+
+            if(grid.includes(table[i+2][j+1])){
+                console.error("i+2 j+1")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i+2][j+1])
+            }
+
+            if(grid.includes(table[i+2][j+2])){
+                console.error("i+2 j+2")
+                ans = false
+                break;
+            }else{
+                grid.push(table[i+2][j+2])
+            }
         }
     }
-    return true
 }
 
-if(table.length==9){
-    if(checkgrid()){
-        console.log(ans);
-    }else{
-        console.log(false);
-    }
-}else{
-    console.log(false);
-}
+console.log(ans);
+
