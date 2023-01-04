@@ -1,3 +1,4 @@
+//@ts-nocheck
 import {ERC20__factory} from "./typechain/factories/ERC20__factory";
 
 const networkConfig = {
