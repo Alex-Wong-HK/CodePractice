@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Native-Mobile-App/Android/Kotlin/Jetpack-Compose-Firebase-Auth-GoogleMap/Jetpack-Compose-Firebase-Auth" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Native-Mobile-App/Swift/Swift-Firebase/ScoringSystem" vcs="Git" />
   </component>
 </project>
