@@ -1,3 +1,6 @@
 [submodule "Native-Mobile-App/Android/Kotlin/Jetpack-Compose-Firebase-Auth-GoogleMap/Jetpack-Compose-Firebase-Auth"]
 	path = Native-Mobile-App/Android/Kotlin/Jetpack-Compose-Firebase-Auth-GoogleMap/Jetpack-Compose-Firebase-Auth
 	url = https://github.com/Alex-Wong-HK/Jetpack-Compose-Firebase-Auth.git
+[submodule "Native-Mobile-App/Swift/Swift-Firebase/ScoringSystem"]
+	path = Native-Mobile-App/Swift/Swift-Firebase/ScoringSystem
+	url = https://github.com/Alex-Wong-HK/ScoringSystem.git
