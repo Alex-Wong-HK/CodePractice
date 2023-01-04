@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Native-Mobile-App/Android/Kotlin/Jetpack-Compose-Firebase-Auth-GoogleMap/Jetpack-Compose-Firebase-Auth" vcs="Git" />
   </component>
 </project>
