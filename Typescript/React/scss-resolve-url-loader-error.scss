@@ -1,8 +1,8 @@
 @layer components {
   .error-case {
-    @apply dark:text-white text-[#4b5768];   -> throw Error: resolve-url-loader: error processing CSS  -> can't end with ]
+    @apply dark:text-white text-[#4b5768];   //  throw Error: resolve-url-loader: error processing CSS  -> can't end with ]
   }
-  
+
   .solution-1 {
     @apply text-[#4b5768] dark:text-white;   //-> change the world sort.
   }
